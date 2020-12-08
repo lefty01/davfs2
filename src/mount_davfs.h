@@ -72,6 +72,7 @@ typedef struct {
     char *username;           /* User secrets file, system secrets file */
     char *cl_username;        /* Command line */
     char *password;           /* User secrets file, system secrets file */
+    char *token;              /* User 2FA token */
     char *clicert;            /* User config file */
     char *sys_clicert;        /* System config file */
     ne_ssl_client_cert *client_cert;

@@ -511,6 +511,14 @@ proxy.mycompany.com     filomena  "my secret"
 .RE
 
 .PP
+If you have two-factor authentication enabled and if you can provide the token together with the password
+in the form of password:token, then add the string '2FA' as the forth parameter and you will be asked for
+token during mounting.
+.RS
+/media/dav   user-name   "p@ss\\"w0rd" 2FA
+.RE
+
+.PP
 Now the WebDAV resource may be mounted by user filomena invoking
 .RS
 .B mount /media/dav
