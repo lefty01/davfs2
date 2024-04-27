@@ -37,7 +37,7 @@ AC_PROG_LN_S
 # Checks for libraries.
 AM_GNU_GETTEXT_VERSION(0.19)
 AM_GNU_GETTEXT([external])
-NE_REQUIRE_VERSIONS([0], [27 28 29 30 31])
+NE_REQUIRE_VERSIONS([0], [27 28 29 30 31 33])
 DAV_CHECK_NEON
 
 # Checks for header files.
